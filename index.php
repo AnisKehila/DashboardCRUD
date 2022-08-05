@@ -5,7 +5,6 @@
 ?>
 <link rel="stylesheet" href="./styles/main.css">
 <?php require_once "../Userspace/includes/header.php" ?>
-
     <section class="login ">
             <div class="container py-5">
                 <div id="logincontainer" class="row g-0 shadow overflow-hidden ">
