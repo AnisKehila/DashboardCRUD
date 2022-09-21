@@ -30,7 +30,7 @@
                                 <label class="fw-bold px-0 py-1 mt-1 primary-900">Confirm password</label>
                                 <input id="password" class="form-control fs- py-2 mb-2" type="password" placeholder="Enter Password" name="confirm-password" required>
                                 <div><?php if(isset($_GET['err'])) echo '<label class="text-danger" style="width:100%;text-align:center;color:#DE6666;font-size:18px;margin-top:25px;">'.$_GET["err"] .'</label>'; ?></div>
-                                <button class="btn-lg btn-primary py-2 fs-6 rounded-pill" id="loginbutton" type="submit" name="signup">Sign Up</button>
+                                <button class="btn-lg btn-primary" id="loginbutton" type="submit" name="signup">Sign Up</button>
                             </div>
                         </form>
                     </div>
