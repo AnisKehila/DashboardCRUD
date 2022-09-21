@@ -26,7 +26,7 @@
                                     <label class="fw-bold px-0 py-1 mt-1 primary-900">Password</label>
                                     <input id="password" class="form-control fs- py-2 mb-2" type="password" placeholder="Enter Password" name="password" required>
                                     <a class="mb-3 link-primary my-1 px-0" href="#"> Forgot your password?</a>
-                                    <button class="btn-lg btn-primary py-2 fs-6 rounded-pill" id="loginbutton" type="submit" name="login">Log In</button>
+                                    <button class="btn-lg btn-primary" id="loginbutton" type="submit" name="login">Log In</button>
                                     <?php
                                         if(isset($_GET['err']))  
                                             echo '<label class="text-danger" style="width:100%;text-align:center;color:#DE6666;font-size:18px;margin-top:25px;">'.$_GET["err"] .'</label>';
